@@ -27,5 +27,12 @@ function funcaoComRetorno(int $par1, int $par2): int
 funcaoSemParam();
 funcaoComParam(2508);
 funcaoComDoisParam(2, 8);
-echo funcaoComRetorno(2, 4);
+echo funcaoComRetorno(2, 4).PHP_EOL;
 
+function testeString(string $nome): string
+{
+    return "Olá, {$nome}.";
+}
+
+$saudacao = testeString("Carlos");
+echo "Resultado => {$saudacao}".PHP_EOL;

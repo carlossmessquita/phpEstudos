@@ -50,3 +50,22 @@ $arrayB[] = 0;
 foreach($arrayA as $arr) {
     echo $arr.PHP_EOL;
 }
+
+// List:
+$lista = [21, 22, 23, 24];
+
+list($idadeCarlos, $idadeVitor, $idadePedro, $idadeJoao) = $lista;
+
+echo $idadeCarlos.PHP_EOL;
+
+[$idadeMaria, $idadeSara, $idadeVini, $idadePaulo] = $lista;
+
+echo $idadeMaria.PHP_EOL;
+
+// Remover itens:
+unset($lista[3]);
+
+echo $lista[3];
+
+$lista[3] = 28;
+echo $lista[3];
