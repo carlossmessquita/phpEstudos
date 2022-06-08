@@ -1,3 +1,0 @@
-<?php
-
-// Valor vs Referência
